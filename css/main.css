@@ -1,0 +1,97 @@
+body {
+    background: #111;
+    color: white;
+}
+
+.cinema {
+    padding-top: 60px;
+    width: 600px;
+    margin: auto;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.cell {
+    width: 35px;
+    height: 50px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+.seat {
+    background-color: #761818;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #FFA500;
+}
+
+.booked {
+    background-color: #FF4501;
+}
+
+.seat.booked:hover {
+    background: linear-gradient(to top, black, gray);
+    cursor: not-allowed;
+}
+
+.popup {
+    position: relative;
+    background-color: orange;
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 150px;
+    margin-right: 15px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+.marked {
+    background-color: #B0C4DE;
+}
+
+.book-seat {
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.book-seat:hover {
+    background-color: #B0C4DE;
+}
+
+H1 {
+    text-align: center;
+    user-select: none;
+}
+
+.close-popup {
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.close-popup:hover {
+    background-color: #B0C4DE;
+}
+
+/* .high-light {
+    background-color: aqua;
+    border: 1px solid rgb(255, 255, 255)
+} */
+
+.hight-light-btn {
+    cursor: pointer;
+}
